@@ -1,32 +1,39 @@
-﻿
-.navbar-inverse{
+﻿body{
+
+}
+.navbar-inverse {
     background-color: crimson;
-    border-color:black;
-}
-.navbar-inverse .navbar-nar > li > a{
-    color:white;
-}
-.navbar-inverse .navbar-brand{
-    color:white;
+    border-color: black;
 }
 
+    .navbar-inverse .navbar-nar > li > a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: white;
+    }
+
 /*Course layout*/
-.course{
-    list-style:none;
+.course {
+    list-style: none;
 }
-.course > li {
-    position:relative;
-    margin-bottom: 30px;
-}
-.course > li .date {
-    text-align: center;
-    background-color:aquamarine;
-    color: black;
-    width: 60px;
-    border-radius: 8px;
-}
-.course > li .details{
-    position:absolute;
-    top:0;
-    left:70px;
-}
+
+    .course > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+        .course > li .date {
+            text-align: center;
+            background-color: aquamarine;
+            color: black;
+            width: 60px;
+            border-radius: 8px;
+        }
+
+        .course > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+        }
